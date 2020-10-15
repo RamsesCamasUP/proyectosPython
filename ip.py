@@ -1,6 +1,4 @@
 import socket
-
-
 if __name__ == "__main__":
     hostname = socket.gethostname()
     ip_adress = socket.gethostbyname(hostname)
