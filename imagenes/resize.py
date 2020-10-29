@@ -3,7 +3,6 @@ from PIL import Image
 
 if __name__ == "__main__":
     try:
-        #https://pillow.readthedocs.io/en/stable/handbook/concepts.html
         image = Image.open('img/jojo.jpg')
         width, height = image.size
         new_width = width//2
