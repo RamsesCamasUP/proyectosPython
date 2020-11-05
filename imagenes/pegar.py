@@ -17,14 +17,14 @@ if __name__ == "__main__":
             (200,190),
             mask = gorro
         )
-        panel.show()
+        #panel.show()
 
         panel.paste(
             letras,
             (250,50),
             mask = letras
         )
-        panel.show()
+        #panel.show()
         panel.paste(
             coca,
             (180,500),
