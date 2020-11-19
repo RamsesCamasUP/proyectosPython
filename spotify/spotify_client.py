@@ -21,7 +21,6 @@ class SpotifyClient(object):
             }
         )
         response_json = response.json()
-
         tracks = [track for track in response_json['tracks']['items']]
         print(f'Found {len(tracks)} from your search')
 
